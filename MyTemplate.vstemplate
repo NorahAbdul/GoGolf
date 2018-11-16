@@ -1,0 +1,196 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>GoGolf</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>GoGolf</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.PNG</Icon>
+    <PreviewImage>__PreviewImage.PNG</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name=".vs" TargetFolderName=".vs">
+        <Folder Name="config" TargetFolderName="config">
+          <ProjectItem ReplaceParameters="true" TargetFileName="applicationhost.config">applicationhost.config</ProjectItem>
+        </Folder>
+        <Folder Name="New folder" TargetFolderName="New folder">
+          <Folder Name="v15" TargetFolderName="v15" />
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ProjectSettings.json">ProjectSettings.json</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="slnx.sqlite">slnx.sqlite</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="2018-03-29-PHOTO-00000820.jpeg">2018-03-29-PHOTO-00000820.jpeg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="about.html">about.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="adminpage.aspx">adminpage.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="adminpage.aspx.cs">adminpage.aspx.cs</ProjectItem>
+      <Folder Name="App_Themes" TargetFolderName="App_Themes">
+        <Folder Name="Theme1" TargetFolderName="Theme1">
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css">bootstrap.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js">bootstrap.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="contactform.js">contactform.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Customjs.js">Customjs.js</ProjectItem>
+          <Folder Name="Fonts" TargetFolderName="Fonts">
+            <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.svg">glyphicons-halflings-regular.svg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.ttf">glyphicons-halflings-regular.ttf</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="height.js">height.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="html5shiv.js">html5shiv.js</ProjectItem>
+          <Folder Name="images" TargetFolderName="images">
+            <ProjectItem ReplaceParameters="false" TargetFileName="29.png">29.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="30.png">30.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="31.png">31.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="34.png">34.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="35.png">35.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="36.png">36.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="37.png">37.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="38.png">38.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="39.png">39.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="45.png">45.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="54.png">54.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="55.png">55.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="56.png">56.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="57.png">57.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="blank.jpg">blank.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="gototop0.png">gototop0.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="headerforeground01.png">headerforeground01.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="HomeDesktophtml_row2.png">HomeDesktophtml_row2.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="HomeDesktopSlide0.jpg">HomeDesktopSlide0.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="HomeDesktopSlide1.jpg">HomeDesktopSlide1.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="HomeDesktopSlide2.jpg">HomeDesktopSlide2.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Leftbutton.png">Leftbutton.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Rightbutton.png">Rightbutton.png</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-ui.min.js">jquery-ui.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.js">jquery.js</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="menulogo.png">menulogo.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="navigation.js">navigation.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="respond.min.js">respond.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="screenshot.png">screenshot.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="totop.js">totop.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="tt_slideshow.js">tt_slideshow.js</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Bin" TargetFolderName="Bin">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll.refresh">Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml">Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml</ProjectItem>
+        <Folder Name="roslyn" TargetFolderName="roslyn">
+          <ProjectItem ReplaceParameters="false" TargetFileName="csc.exe">csc.exe</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="csc.exe.config">csc.exe.config</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="csc.exe.refresh">csc.exe.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="csc.rsp">csc.rsp</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="csi.exe">csi.exe</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="csi.exe.config">csi.exe.config</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="csi.exe.refresh">csi.exe.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="csi.rsp">csi.rsp</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Build.Tasks.CodeAnalysis.dll">Microsoft.Build.Tasks.CodeAnalysis.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Build.Tasks.CodeAnalysis.dll.refresh">Microsoft.Build.Tasks.CodeAnalysis.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.CSharp.dll">Microsoft.CodeAnalysis.CSharp.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.CSharp.dll.refresh">Microsoft.CodeAnalysis.CSharp.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.CSharp.Scripting.dll">Microsoft.CodeAnalysis.CSharp.Scripting.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.CSharp.Scripting.dll.refresh">Microsoft.CodeAnalysis.CSharp.Scripting.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.dll">Microsoft.CodeAnalysis.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.dll.refresh">Microsoft.CodeAnalysis.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.Scripting.dll">Microsoft.CodeAnalysis.Scripting.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.Scripting.dll.refresh">Microsoft.CodeAnalysis.Scripting.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.VisualBasic.dll">Microsoft.CodeAnalysis.VisualBasic.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CodeAnalysis.VisualBasic.dll.refresh">Microsoft.CodeAnalysis.VisualBasic.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.CSharp.Core.targets">Microsoft.CSharp.Core.targets</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.DiaSymReader.Native.amd64.dll">Microsoft.DiaSymReader.Native.amd64.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.DiaSymReader.Native.amd64.dll.refresh">Microsoft.DiaSymReader.Native.amd64.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.DiaSymReader.Native.x86.dll">Microsoft.DiaSymReader.Native.x86.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.DiaSymReader.Native.x86.dll.refresh">Microsoft.DiaSymReader.Native.x86.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.VisualBasic.Core.targets">Microsoft.VisualBasic.Core.targets</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Win32.Primitives.dll">Microsoft.Win32.Primitives.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Win32.Primitives.dll.refresh">Microsoft.Win32.Primitives.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.AppContext.dll">System.AppContext.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.AppContext.dll.refresh">System.AppContext.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Collections.Immutable.dll">System.Collections.Immutable.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Collections.Immutable.dll.refresh">System.Collections.Immutable.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Console.dll">System.Console.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Console.dll.refresh">System.Console.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Diagnostics.FileVersionInfo.dll">System.Diagnostics.FileVersionInfo.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Diagnostics.FileVersionInfo.dll.refresh">System.Diagnostics.FileVersionInfo.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Diagnostics.Process.dll">System.Diagnostics.Process.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Diagnostics.Process.dll.refresh">System.Diagnostics.Process.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Diagnostics.StackTrace.dll">System.Diagnostics.StackTrace.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Diagnostics.StackTrace.dll.refresh">System.Diagnostics.StackTrace.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.Compression.dll">System.IO.Compression.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.Compression.dll.refresh">System.IO.Compression.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.FileSystem.dll">System.IO.FileSystem.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.FileSystem.dll.refresh">System.IO.FileSystem.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.FileSystem.DriveInfo.dll">System.IO.FileSystem.DriveInfo.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.FileSystem.DriveInfo.dll.refresh">System.IO.FileSystem.DriveInfo.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.FileSystem.Primitives.dll">System.IO.FileSystem.Primitives.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.FileSystem.Primitives.dll.refresh">System.IO.FileSystem.Primitives.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.Pipes.dll">System.IO.Pipes.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.IO.Pipes.dll.refresh">System.IO.Pipes.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Reflection.Metadata.dll">System.Reflection.Metadata.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Reflection.Metadata.dll.refresh">System.Reflection.Metadata.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.AccessControl.dll">System.Security.AccessControl.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.AccessControl.dll.refresh">System.Security.AccessControl.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Claims.dll">System.Security.Claims.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Claims.dll.refresh">System.Security.Claims.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Cryptography.Algorithms.dll">System.Security.Cryptography.Algorithms.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Cryptography.Algorithms.dll.refresh">System.Security.Cryptography.Algorithms.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Cryptography.Encoding.dll">System.Security.Cryptography.Encoding.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Cryptography.Encoding.dll.refresh">System.Security.Cryptography.Encoding.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Cryptography.Primitives.dll">System.Security.Cryptography.Primitives.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Cryptography.Primitives.dll.refresh">System.Security.Cryptography.Primitives.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Cryptography.X509Certificates.dll">System.Security.Cryptography.X509Certificates.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Cryptography.X509Certificates.dll.refresh">System.Security.Cryptography.X509Certificates.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Principal.Windows.dll">System.Security.Principal.Windows.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Security.Principal.Windows.dll.refresh">System.Security.Principal.Windows.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Text.Encoding.CodePages.dll">System.Text.Encoding.CodePages.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Text.Encoding.CodePages.dll.refresh">System.Text.Encoding.CodePages.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Threading.Thread.dll">System.Threading.Thread.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Threading.Thread.dll.refresh">System.Threading.Thread.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.ValueTuple.dll">System.ValueTuple.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.ValueTuple.dll.refresh">System.ValueTuple.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Xml.ReaderWriter.dll">System.Xml.ReaderWriter.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Xml.ReaderWriter.dll.refresh">System.Xml.ReaderWriter.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Xml.XmlDocument.dll">System.Xml.XmlDocument.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Xml.XmlDocument.dll.refresh">System.Xml.XmlDocument.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Xml.XPath.dll">System.Xml.XPath.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Xml.XPath.dll.refresh">System.Xml.XPath.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Xml.XPath.XDocument.dll">System.Xml.XPath.XDocument.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Xml.XPath.XDocument.dll.refresh">System.Xml.XPath.XDocument.dll.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="vbc.exe">vbc.exe</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="vbc.exe.config">vbc.exe.config</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="vbc.exe.refresh">vbc.exe.refresh</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="vbc.rsp">vbc.rsp</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="VBCSCompiler.exe">VBCSCompiler.exe</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="VBCSCompiler.exe.config">VBCSCompiler.exe.config</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="VBCSCompiler.exe.refresh">VBCSCompiler.exe.refresh</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact.html">contact.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ContactUs.aspx">ContactUs.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ContactUs.aspx.cs">ContactUs.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Driverpage.aspx">Driverpage.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Driverpage.aspx.cs">Driverpage.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="home.html">home.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="HomePage.aspx">HomePage.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="HomePage.aspx.cs">HomePage.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Mainpage.aspx">Mainpage.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Mainpage.aspx.cs">Mainpage.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.master">MasterPage.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.master.cs">MasterPage.master.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Registration.aspx">Registration.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Registration.aspx.cs">Registration.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StyleSheet.css">StyleSheet.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.debug.config">Web.debug.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
